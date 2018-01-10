@@ -8,16 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		FB3123E72003A09700281540 /* CarthageDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = FB3123E52003A09700281540 /* CarthageDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB3123EE2003A18000281540 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3123ED2003A18000281540 /* Router.swift */; };
 		FB3123F12003A1B300281540 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB3123F02003A1B300281540 /* Alamofire.framework */; };
+		FBADD8862005F26500985CF1 /* CarthageDemo_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = FBADD8842005F26500985CF1 /* CarthageDemo_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBADD8AD2005F34400985CF1 /* CarthageDemo_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = FBADD8AB2005F34400985CF1 /* CarthageDemo_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBADD8B52005F39400985CF1 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBADD8B42005F39400985CF1 /* Router.swift */; };
+		FBADD8B82005F39F00985CF1 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBADD8B72005F39F00985CF1 /* Router.swift */; };
+		FBADD8BB2005F3AA00985CF1 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBADD8BA2005F3AA00985CF1 /* Router.swift */; };
+		FBADD8BD2005F4D100985CF1 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBADD8BC2005F4D100985CF1 /* Alamofire.framework */; };
+		FBADD8C02005F50600985CF1 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBADD8BF2005F50600985CF1 /* Alamofire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FB3123E22003A09700281540 /* CarthageDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CarthageDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB3123E52003A09700281540 /* CarthageDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarthageDemo.h; sourceTree = "<group>"; };
 		FB3123E62003A09700281540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FB3123ED2003A18000281540 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		FB3123F02003A1B300281540 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		FBADD8822005F26500985CF1 /* CarthageDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CarthageDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBADD8842005F26500985CF1 /* CarthageDemo_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarthageDemo_macOS.h; sourceTree = "<group>"; };
+		FBADD8852005F26500985CF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBADD8A92005F34400985CF1 /* CarthageDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CarthageDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBADD8AB2005F34400985CF1 /* CarthageDemo_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarthageDemo_tvOS.h; sourceTree = "<group>"; };
+		FBADD8AC2005F34400985CF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBADD8B42005F39400985CF1 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		FBADD8B72005F39F00985CF1 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		FBADD8BA2005F3AA00985CF1 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		FBADD8BC2005F4D100985CF1 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/Mac/Alamofire.framework; sourceTree = "<group>"; };
+		FBADD8BF2005F50600985CF1 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/tvOS/Alamofire.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FBADD87E2005F26500985CF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBADD8BD2005F4D100985CF1 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBADD8A52005F34400985CF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBADD8C02005F50600985CF1 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -36,6 +68,8 @@
 			isa = PBXGroup;
 			children = (
 				FB3123E42003A09700281540 /* CarthageDemo */,
+				FBADD8832005F26500985CF1 /* CarthageDemo macOS */,
+				FBADD8AA2005F34400985CF1 /* CarthageDemo tvOS */,
 				FB3123E32003A09700281540 /* Products */,
 				FB3123EF2003A1B200281540 /* Frameworks */,
 			);
@@ -45,6 +79,8 @@
 			isa = PBXGroup;
 			children = (
 				FB3123E22003A09700281540 /* CarthageDemo.framework */,
+				FBADD8822005F26500985CF1 /* CarthageDemo.framework */,
+				FBADD8A92005F34400985CF1 /* CarthageDemo.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,9 +88,9 @@
 		FB3123E42003A09700281540 /* CarthageDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FBADD8B32005F39400985CF1 /* Source */,
 				FB3123E52003A09700281540 /* CarthageDemo.h */,
 				FB3123E62003A09700281540 /* Info.plist */,
-				FB3123ED2003A18000281540 /* Router.swift */,
 			);
 			path = CarthageDemo;
 			sourceTree = "<group>";
@@ -62,10 +98,56 @@
 		FB3123EF2003A1B200281540 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FBADD8BF2005F50600985CF1 /* Alamofire.framework */,
+				FBADD8BC2005F4D100985CF1 /* Alamofire.framework */,
 				FB3123F02003A1B300281540 /* Alamofire.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
+		};
+		FBADD8832005F26500985CF1 /* CarthageDemo macOS */ = {
+			isa = PBXGroup;
+			children = (
+				FBADD8B62005F39F00985CF1 /* Source */,
+				FBADD8842005F26500985CF1 /* CarthageDemo_macOS.h */,
+				FBADD8852005F26500985CF1 /* Info.plist */,
+			);
+			path = "CarthageDemo macOS";
+			sourceTree = "<group>";
+		};
+		FBADD8AA2005F34400985CF1 /* CarthageDemo tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				FBADD8B92005F3AA00985CF1 /* Source */,
+				FBADD8AB2005F34400985CF1 /* CarthageDemo_tvOS.h */,
+				FBADD8AC2005F34400985CF1 /* Info.plist */,
+			);
+			path = "CarthageDemo tvOS";
+			sourceTree = "<group>";
+		};
+		FBADD8B32005F39400985CF1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				FBADD8B42005F39400985CF1 /* Router.swift */,
+			);
+			path = Source;
+			sourceTree = SOURCE_ROOT;
+		};
+		FBADD8B62005F39F00985CF1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				FBADD8B72005F39F00985CF1 /* Router.swift */,
+			);
+			path = Source;
+			sourceTree = SOURCE_ROOT;
+		};
+		FBADD8B92005F3AA00985CF1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				FBADD8BA2005F3AA00985CF1 /* Router.swift */,
+			);
+			path = Source;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -75,6 +157,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB3123E72003A09700281540 /* CarthageDemo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBADD87F2005F26500985CF1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBADD8862005F26500985CF1 /* CarthageDemo_macOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBADD8A62005F34400985CF1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBADD8AD2005F34400985CF1 /* CarthageDemo_tvOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +198,44 @@
 			productReference = FB3123E22003A09700281540 /* CarthageDemo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		FBADD8812005F26500985CF1 /* CarthageDemo macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBADD8872005F26500985CF1 /* Build configuration list for PBXNativeTarget "CarthageDemo macOS" */;
+			buildPhases = (
+				FBADD87D2005F26500985CF1 /* Sources */,
+				FBADD87E2005F26500985CF1 /* Frameworks */,
+				FBADD87F2005F26500985CF1 /* Headers */,
+				FBADD8802005F26500985CF1 /* Resources */,
+				FBADD8BE2005F4D900985CF1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CarthageDemo macOS";
+			productName = "CarthageDemo macOS";
+			productReference = FBADD8822005F26500985CF1 /* CarthageDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FBADD8A82005F34400985CF1 /* CarthageDemo tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBADD8AE2005F34400985CF1 /* Build configuration list for PBXNativeTarget "CarthageDemo tvOS" */;
+			buildPhases = (
+				FBADD8A42005F34400985CF1 /* Sources */,
+				FBADD8A52005F34400985CF1 /* Frameworks */,
+				FBADD8A62005F34400985CF1 /* Headers */,
+				FBADD8A72005F34400985CF1 /* Resources */,
+				FBADD8C12005F50B00985CF1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CarthageDemo tvOS";
+			productName = "CarthageDemo tvOS";
+			productReference = FBADD8A92005F34400985CF1 /* CarthageDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -112,6 +248,14 @@
 					FB3123E12003A09700281540 = {
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					FBADD8812005F26500985CF1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FBADD8A82005F34400985CF1 = {
+						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -129,12 +273,28 @@
 			projectRoot = "";
 			targets = (
 				FB3123E12003A09700281540 /* CarthageDemo */,
+				FBADD8812005F26500985CF1 /* CarthageDemo macOS */,
+				FBADD8A82005F34400985CF1 /* CarthageDemo tvOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FB3123E02003A09700281540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBADD8802005F26500985CF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBADD8A72005F34400985CF1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -158,6 +318,34 @@
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
+		FBADD8BE2005F4D900985CF1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/Mac/Alamofire.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		FBADD8C12005F50B00985CF1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/tvOS/Alamofire.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -165,7 +353,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB3123EE2003A18000281540 /* Router.swift in Sources */,
+				FBADD8B52005F39400985CF1 /* Router.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBADD87D2005F26500985CF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBADD8B82005F39F00985CF1 /* Router.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBADD8A42005F34400985CF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBADD8BB2005F3AA00985CF1 /* Router.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +542,116 @@
 			};
 			name = Release;
 		};
+		FBADD8882005F26500985CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = NY45473NT8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "CarthageDemo macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nickelfox.CarthageDemo-macOS";
+				PRODUCT_NAME = CarthageDemo;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		FBADD8892005F26500985CF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = NY45473NT8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "CarthageDemo macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nickelfox.CarthageDemo-macOS";
+				PRODUCT_NAME = CarthageDemo;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		FBADD8AF2005F34400985CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = NY45473NT8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = "CarthageDemo tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nickelfox.CarthageDemo-tvOS";
+				PRODUCT_NAME = CarthageDemo;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		FBADD8B02005F34400985CF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = NY45473NT8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = "CarthageDemo tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nickelfox.CarthageDemo-tvOS";
+				PRODUCT_NAME = CarthageDemo;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -355,6 +669,24 @@
 			buildConfigurations = (
 				FB3123EB2003A09700281540 /* Debug */,
 				FB3123EC2003A09700281540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBADD8872005F26500985CF1 /* Build configuration list for PBXNativeTarget "CarthageDemo macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBADD8882005F26500985CF1 /* Debug */,
+				FBADD8892005F26500985CF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBADD8AE2005F34400985CF1 /* Build configuration list for PBXNativeTarget "CarthageDemo tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBADD8AF2005F34400985CF1 /* Debug */,
+				FBADD8B02005F34400985CF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
